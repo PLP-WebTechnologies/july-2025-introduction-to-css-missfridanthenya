@@ -1,0 +1,69 @@
+/* ===== General Styles ===== */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* ===== Header ===== */
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px; /* Inside spacing */
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px; /* Outside spacing */
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Content Section ===== */
+.content {
+    max-width: 800px;
+    margin: 20px auto; /* Centers the content and adds outside spacing */
+    padding: 20px;     /* Inside spacing */
+    background-color: white;
+    border: 2px solid #ddd; /* Shows box boundary */
+    border-radius: 8px;
+}
+
+.card {
+    border: 2px solid #4CAF50; /* Card boundary */
+    padding: 15px;              /* Inside spacing */
+    margin-top: 20px;           /* Outside spacing */
+    background-color: #e8f5e9;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* ===== Footer ===== */
+.footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+}
